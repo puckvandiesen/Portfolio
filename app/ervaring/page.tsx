@@ -79,7 +79,7 @@ export default function PersoonlijkPage() {
           )}{" "}
           
           <a
-            href="/files/CV_Puck_van_Diesen.pdf"
+            href="/Files/Resume_PuckvanDiesen.pdf"
             download
             className="font-bold underline hover:opacity-70 transition"
           >
