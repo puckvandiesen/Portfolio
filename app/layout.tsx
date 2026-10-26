@@ -1,7 +1,6 @@
 "use client"
 
 import "./globals.css"
-import { Shantell_Sans } from "next/font/google"
 
 import GlobalNavbar from "@/components/GlobalNavbar"
 import Footer from "@/components/Footer"
@@ -9,11 +8,6 @@ import GoogleAnalyticsTracker from "@/components/GoogleAnalyticsTracker"
 import { AppToaster } from "@/components/ui/toast"
 import { usePathname } from "next/navigation"
 import { LanguageProvider } from "@/lib/i18n"
-
-const shantell = Shantell_Sans({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-})
 
 export default function RootLayout({
   children,
